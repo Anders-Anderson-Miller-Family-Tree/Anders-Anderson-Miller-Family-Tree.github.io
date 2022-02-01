@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Home
 ---
-![Miller family reunion 2008](/assets/images/FamilyReunion2008_welcome.jpg)
+![Miller family reunion 2008](/assets/img/FamilyReunion2008_welcome.jpg)
 
 Welcome to the Miller family website. We share a common ancestor, Anders Anderson (Miller), who emigrated from Varmland, Sweden to Hartland, MN in 1869. Much of the family still lives in Southern Minnesota.
 
