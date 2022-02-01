@@ -22,20 +22,28 @@ title: Miller Family Website
 email: reid@reidmiller.name
 description: >- 
   A website for family of Anders Anderson (Miller).
-tagline: <a href="https://commons.wikimedia.org/wiki/File:V%C3%A4rmland_vapen.svg">Lokal_Profil</a>, <a href="https://creativecommons.org/licenses/by-sa/2.5">CC BY-SA 2.5</a>, via Wikimedia Commons
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anders-anderson-miller-family-tree.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-github:
-  username: r24mille
-theme_mode: light
-# the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/varmland_vapen.png'
+color-scheme: light
+logo: '/assets/img/varmland_vapen.png'
 
-# Build settings
-remote_theme: cotes2020/jekyll-theme-chirpy@v5.0.2
+remote_theme: BDHU/minimalist
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+include: ['_pages']
+
+# Theme Settings
+sidebar:
+  - name: Home
+    icon: fa-solid fa-home
+    link: /
+  - name: Family Reunion
+    icon: fa-solid fa-users
+    link: /family_reunion
+  - name: Family Genealogy
+    icon: fa-solid fa-code-branch
+    link: http://family.andersandersonmiller.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
