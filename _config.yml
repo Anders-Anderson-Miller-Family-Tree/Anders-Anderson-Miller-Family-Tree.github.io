@@ -24,7 +24,6 @@ description: >-
   A website for family of Anders Anderson (Miller).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://anders-anderson-miller-family-tree.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-color-scheme: light
 logo: '/assets/img/varmland_vapen.png'
 
 remote_theme: BDHU/minimalist
@@ -33,7 +32,9 @@ plugins:
   - jekyll-remote-theme
 include: ['_pages']
 
-# Theme Settings
+# Theme customizations
+color-scheme: light
+favicon: true
 sidebar:
   - name: Home
     icon: fa-solid fa-home
