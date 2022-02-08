@@ -44,7 +44,7 @@ sidebar:
     link: /family_reunion
   - name: Family Genealogy
     icon: fa-solid fa-code-branch
-    link: http://family.andersandersonmiller.com
+    link: https://family.andersandersonmiller.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
