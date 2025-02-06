@@ -37,13 +37,13 @@ color-scheme: light
 favicon: true
 sidebar:
   - name: Home
-    icon: fa-solid fa-home
+    icon: <i class="fa-solid fa-home"></i>
     link: /
   - name: Family Reunion
-    icon: fa-solid fa-users
+    icon: <i class="fa-solid fa-users"></i>
     link: /family_reunion
   - name: Family Genealogy
-    icon: fa-solid fa-code-branch
+    icon: <i class="fa-solid fa-code-branch"></i>
     link: https://family.andersandersonmiller.com
 
 # Exclude from processing.
